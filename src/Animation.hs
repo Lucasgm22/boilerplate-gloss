@@ -2,4 +2,4 @@ module Animation (
     animation
 ) where
 
-animation = animation
+animation = const id

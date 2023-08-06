@@ -8,7 +8,7 @@ import Rendering
 import Animation
 
 window :: Display
-window = InWindow "Functional" (screenWidth, screenHeight) (100, 100)
+window = InWindow "Name of the Window" (screenWidth, screenHeight) (100, 100)
 
 backgroundColor :: Color
 backgroundColor = makeColor 0 0 0 255
