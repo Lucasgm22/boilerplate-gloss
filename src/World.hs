@@ -1,5 +1,5 @@
-module Game (
-    initialGame
+module World (
+    initialWorld
   , screenHeight
   , screenWidth
 ) where
@@ -11,4 +11,4 @@ screenWidth = 640
 screenHeight :: Int
 screenHeight = 480
 
-initialGame = undefined
+initialWorld = undefined
